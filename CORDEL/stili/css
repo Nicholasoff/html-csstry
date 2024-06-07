@@ -38,7 +38,7 @@ header h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     padding: 0px 0px 40px 0px;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 header a {
@@ -60,16 +60,28 @@ section {
     font-size: 3vw;
 }
 
+section > p {
+    padding-bottom:2em;
+}
+
 .normal {
     font-family: var(--fonte3);
 }
 
 .girassol {
+    color: white;
     font-family: var(--fonte3);
+    background-image: url(../background001.jpg);
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .cartas {
+    color: white;
     font-family: var(--fonte3);
+    background-image: url(../background002.jpg);
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 footer {
